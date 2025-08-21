@@ -3,12 +3,12 @@ tasty_bytes:
   outputs:
     dev:
       type: snowflake
-      account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
-      schema: dev
-      warehouse: tasty_bytes_dbt_wh
+      account: 'at98234.central-us.privatelink'
+      user: 'SSIRIG02@BLUESHIELDCA.COM'
+      role: EC_POC_SBX_FR
+      database: EC_POC_SBX
+      schema: POC
+      warehouse: EC_POC_SBX_USR_WH
     prod:
       type: snowflake
       account: 'not needed'

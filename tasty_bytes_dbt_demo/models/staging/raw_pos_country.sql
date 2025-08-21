@@ -1,2 +1,5 @@
+
+
 SELECT *
-FROM {{ source('tb_101', 'COUNTRY') }}
+FROM {{ source('poc_data', 'COUNTRY') }}
+

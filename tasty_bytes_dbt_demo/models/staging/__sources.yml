@@ -308,3 +308,12 @@ sources:
       description: ''
     - name: PHONE_NUMBER
       description: ''
+
+- name: poc_data
+  description: 'Point of Sale source data'
+  database: ec_poc_sbx
+  schema: poc
+  tables:
+  - name: COUNTRY
+    description: 'Country reference data'
+
